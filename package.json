@@ -1,0 +1,15 @@
+{
+  "name": "ironq",
+  "version": "1.0.0",
+  "description": "Node.js 分布式任务队列 · 基于 Redis · 高性能 · 可扩展",
+  "main": "src/index.js",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "node --test",
+    "build": "echo 'no build needed'",
+    "ci": "npm test"
+  },
+  "keywords": ["queue", "redis", "job", "worker", "task", "background"]
+}

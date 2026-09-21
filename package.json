@@ -11,5 +11,8 @@
     "build": "echo 'no build needed'",
     "ci": "npm test"
   },
-  "keywords": ["queue", "redis", "job", "worker", "task", "background"]
+  "keywords": ["queue", "redis", "job", "worker", "task", "background"],
+  "dependencies": {
+    "redis": "^4.6.0"
+  }
 }
